@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch> 
+
+    <node ns = "sphero_gog" name="sphero_gog" pkg="sphero_node" type="sphero.py" args="--target_name Sphero-GOG --target_addr 68:86:E7:08:35:D6 --bt_addr 00:1A:7D:DA:71:05 --port 1" respawn='true' output="screen"/>
+
+    <node ns = "sphero_pgg" name="sphero_pgg" pkg="sphero_node" type="sphero.py" args="--target_name Sphero-PGG --target_addr 68:86:E7:07:DE:51 --bt_addr 00:1A:7D:DA:71:0B --port 1" respawn='true' output="screen"/>
+    <node ns = "sphero_ory" name="sphero_ory" pkg="sphero_node" type="sphero.py" args="--target_name Sphero-ORY --target_addr 68:86:E7:08:EB:7F --bt_addr 00:1A:7D:DA:71:15 --port 1" respawn='true' output="screen"/>
+
+</launch>
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+1. wpw
+2. rgw
+3. rpr
+4. rpp
+
+5. prr
+6. ggw
+7. obr
+8. wpp
+
+5. wpw
+6. obr
+7. rpr
+8. prr
+
+3. 
+
+
+[WARN] [WallTime: 1499804927.578377] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+
+bluetooth Error: (11, 'Resource' temporarily unavailable
+
+Reset data to empty list.
+Runtime Error - Bad SOF
+
+escalating to sigterm
+escalating to sigkill
+required sigkill

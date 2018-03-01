@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch> 
+
+    <node ns = "sphero_obr" name="sphero_obr" pkg="sphero_node" type="sphero.py" args="--target_name Sphero-OBR --target_addr 68:86:E7:08:01:0B --bt_addr 00:1A:7D:DA:71:06 --port 1" respawn='true' output="screen"/>
+    <node ns = "sphero_wpp" name="sphero_wpp" pkg="sphero_node" type="sphero.py" args="--target_name Sphero-WPP --target_addr 68:86:E7:08:84:9E --bt_addr 00:1A:7D:DA:71:06 --port 1" respawn='true' output="screen"/>
+    <node ns = "sphero_wpw" name="sphero_wpw" pkg="sphero_node" type="sphero.py" args="--target_name Sphero-WPW --target_addr 68:86:E7:09:0A:9E --bt_addr 00:1A:7D:DA:71:06 --port 1" respawn='true' output="screen"/>
+
+    <node ns = "sphero_rpp" name="sphero_rpp" pkg="sphero_node" type="sphero.py" args="--target_name Sphero-RPP --target_addr 68:86:E7:09:2E:FE --bt_addr 00:1A:7D:DA:71:0C --port 1" respawn='true' output="screen"/>
+    <node ns = "sphero_rpr" name="sphero_rpr" pkg="sphero_node" type="sphero.py" args="--target_name Sphero-RPR --target_addr 68:86:E7:07:3A:E1 --bt_addr 00:1A:7D:DA:71:0C --port 1" respawn='true' output="screen"/>
+    <node ns = "sphero_prr" name="sphero_prr" pkg="sphero_node" type="sphero.py" args="--target_name Sphero-PRR --target_addr 68:86:E7:09:77:2C --bt_addr 00:1A:7D:DA:71:0C --port 1" respawn='true' output="screen"/>
+
+</launch>
+
+
+
+
+
+
+
